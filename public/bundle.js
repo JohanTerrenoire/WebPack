@@ -67,15 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-function test(){
-  console.log("test");
-  document.write("La fonction test() a été éxécutée");
-}
-
-document.write("<h1>Hello World !</h1></br>");
-document.write("<p>WebPack est bien installé.</p>")
-test();
-
+throw new Error("Module parse failed: Unexpected token (5:18)\nYou may need an appropriate loader to handle this file type.\n| \n| function test(){\n|   let n = { x, y, ...z };\n|   console.log(n);\n| }");
 
 /***/ })
 /******/ ]);
